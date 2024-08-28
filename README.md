@@ -20,7 +20,7 @@
 
 1. リポジトリをクローンします：
    ```
-   git clone https://github.com/あなたのユーザー名/rsvp-web-app.git
+   git clone https://github.com/BioSigMatch/RSVP-webapp-server.git
    cd rsvp-web-app
    ```
 
