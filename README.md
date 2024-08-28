@@ -49,20 +49,27 @@
 
 ## ファイル構造
 
-- `server.js`: APIリクエストを処理し、静的ファイルを提供するExpressサーバー
-- `public/index.html`: ウェブインターフェース用のメインHTMLファイル
-- `public/js/main.js`: （提供されていませんが、想定される）フロントエンド機能用のJavaScriptファイル
-- `public/css/styles.css`: （提供されていませんが、想定される）スタイリング用のCSSファイル
+RSVP-webapp-server/
+├── README.md
+├── images/
+│   ├── nontarget/
+│   └── target/
+├── json/
+│   ├── nontarget_images.json
+│   └── target_images.json
+├── node_modules/
+├── public/
+│   ├── index.html
+│   ├── otherimage/
+│   └── sc.js
+├── package-lock.json
+├── package.json
+└── server.js
 
 ## APIエンドポイント
 
 - GET `/api/images?type=[target|nontarget]`: 画像リストを取得し、JSONとして保存します
 - GET `/api/json/:type`: 指定された画像タイプの保存されたJSONファイルを取得します
 
-## 貢献
 
-貢献を歓迎します！プルリクエストを自由に提出してください。
 
-## ライセンス
-
-このプロジェクトはMITライセンスの下でライセンスされています - 詳細はLICENSEファイルをご覧ください。
