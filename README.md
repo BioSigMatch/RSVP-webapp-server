@@ -21,7 +21,7 @@
 1. リポジトリをクローンします：
    ```
    git clone https://github.com/BioSigMatch/RSVP-webapp-server.git
-   cd rsvp-web-app
+   cd RSVP-webapp-server
    ```
 
 2. 依存関係をインストールします：
