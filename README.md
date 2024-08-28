@@ -48,7 +48,7 @@
 4. 実験後、データをCSVファイルとしてエクスポートできます。
 
 ## ファイル構造
-`
+```
 RSVP-webapp-server/
 ├── README.md
 ├── images/
@@ -65,7 +65,7 @@ RSVP-webapp-server/
 ├── package-lock.json
 ├── package.json
 └── server.js
-`
+```
 ## APIエンドポイント
 
 - GET `/api/images?type=[target|nontarget]`: 画像リストを取得し、JSONとして保存します
