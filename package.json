@@ -1,0 +1,15 @@
+{
+  "name": "rsvp-webapp-main",
+  "version": "1.0.0",
+  "description": "## これは何？ このWebアプリケーションは、「Rapid Serial Visual Presentation (RSVP)」システムを実装しています。ユーザーは、ターゲット画像およびノンターゲット画像を指定し、それらの画像を高速で連続的に表示することができます。また、提示周波数や計測時間などのパラメータを設定することが可能です。",
+  "main": "sc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
